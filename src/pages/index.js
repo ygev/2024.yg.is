@@ -32,7 +32,7 @@ class Index extends React.Component {
     return (
       <React.Fragment>
 
-        <SEO title="Yana G." description="" />
+        <SEO title="YG" description="" />
         <main className="home">
           <Header mouseOverCallback={this.handleHeaderHover} className="nav__home" />
           <div className="hero__wrapper">
