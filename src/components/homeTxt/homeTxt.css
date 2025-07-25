@@ -159,7 +159,7 @@ a {
   }
 
   .home__txt {
-    overflow: scroll;
+    overflow: hidden;
     align-items: flex-start;
   }
 
