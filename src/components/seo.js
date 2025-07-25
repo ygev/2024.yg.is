@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet"
 export default props => (
   <Helmet titleTemplate="%s · YG.IS">
     <meta charSet="utf-8" />
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache" />
     <meta name="description" content={props.description} />
     <meta name="author" content="YG" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
