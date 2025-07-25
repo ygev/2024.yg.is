@@ -9,7 +9,7 @@ export const Constants = {
     airtable: {
         heroName: "Airtable",
         heroCategory: "Day Job",
-        heroYear: "2020–Now",
+        heroYear: "2020–2024",
         heroDeliverable: "Product Designer",
         heroTitle: "Democratizing Software Creation"
     },

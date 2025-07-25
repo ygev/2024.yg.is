@@ -57,25 +57,23 @@ class Index extends React.Component {
 
         <Abstract glams={
           [
-            [Glam1],
-            [Glam2],
-            [Glam4]
+            [Glam1]
           ]
         }
           abstractTeam="Growth · Design Systems · Mobile"
           abstractRole="Product Designer"
           abstractTools="Auditing, Prototyping, A/B Testing"
-          abstractTime="2020 – Now"
-          abstractBody="Few parts of Airtable have gone untouched by my cursor. From every top-of-funnel surface you can think of, to the depths of app configurations, I've designed for it all. Currently, I am the only designer on the design systems and mobile teams."
+          abstractTime="2020 – 2024"
+          abstractBody="Few parts of Airtable have gone untouched by my cursor. From every top-of-funnel surface you can think of, to the depths of app configurations, I've designed for it all. Before I left, I was the only designer on the design systems and mobile teams, dipping my toes into our AI integrations. In mid-2024, I quit to work at an AI startup, as was the custom at the time."
         />
 
         <Tracker phaseList={['GROWTH', 'CORE PRODUCT', 'DESIGN SYSTEMS', 'MOBILE', 'CULTURE']}
           trackerHead={Constants.airtable.heroTitle} />
         <div id="p1">
           <Phase phaseTitle="Growth" />
-          <ImgLeft img={Fig1} padding="" blur="yes" imgNum="01" imgCaption="Favorite project from this era — the onboarding wizard." />
+          <ImgLeft img={Fig1} padding="yes" blur="" imgNum="01" imgCaption="Favorite project from this era — the onboarding wizard." />
           <Paragraph paragraphTitle="Onboarding, Education and Experimental Delight"
-            paragraphBody="Responsible for overhauling the entirety of our top of funnel design, from refreshing and re-routing our sign-up flow to conceiving brand new onboarding experiences. My onboarding experiments are [[discussed in this lengthy interview from Dopt>https://blog.dopt.com/airtable-onboarding-deep-dive]]. Try searching for my name!" />
+            paragraphBody="Responsible for overhauling the entirety of our top of funnel design, from refreshing and re-routing our sign-up flow to conceiving brand new onboarding experiences. My onboarding experiments are [[discussed in this lengthy interview from Dopt>https://archive.is/fwzcW]]. Try searching for my name!" />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={[
               "Why am I always compelled to skip every product tour?",
@@ -114,7 +112,7 @@ class Index extends React.Component {
         </div>
         <div id="p4">
           <Phase phaseTitle="Mobile" />
-          <ImgLeft img={Fig4} padding="true" blur="true" imgNum="04" imgCaption="Project description witheld due to NDA" />
+          <ImgLeft img={Fig4} padding="true" blur="" imgNum="04" imgCaption="Sharing Experience on Mobile" />
           <Paragraph paragraphTitle="Making Airtable Mobile-Native"
             paragraphBody="Since September 2023, I've been the sole designer supporting our mobile app experience on iOS and Android. Given the spatial constraint when designing for mobile, I employ time-based disclosure paradigms to adapt web features to smaller screens." />
           <List listTitle="Questions you may want to ask me:" listType='ol'
