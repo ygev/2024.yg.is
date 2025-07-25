@@ -1,5 +1,11 @@
 .home__txt--wrapper {
   overflow-x: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.home__txt--wrapper::-webkit-scrollbar {
+  display: none;
 }
 
 .home__txt {
