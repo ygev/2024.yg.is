@@ -87,7 +87,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="cluse">
-        <SEO title="Cluse" description="Cluse is a Sketch Plugin that allows you to test the color contrast of your design for accessibility and make changes without interrupting your workflow. Officially endorsed by Sketch. " />
+        <SEO title="Cluse" description="" />
         <Header />
         <div className="hero__wrapper">
           <InnerHero img={Hero} />
