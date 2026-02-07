@@ -2,22 +2,10 @@ import React from "react"
 import SEO from '../../components/seo';
 import Hero from "./images/hero.png";
 
-import Glam1 from "./images/Glam1.png";
-import Glam2 from "./images/Glam2.png";
-import Glam3 from "./images/Glam3.png";
-import Glam4 from "./images/Glam4.png";
-
-
 import Fig1 from "./images/Fig1.gif";
 import Fig2 from "./images/Fig2.png";
 import Fig3 from "./images/Fig3.png";
-import Fig4 from "./images/Fig4.gif";
-import Fig5 from "./images/Fig5.png";
-import Fig6 from "./images/Fig6.gif";
-import Fig7 from "./images/Fig7.gif";
-import Fig8 from "./images/Fig8.png";
-import Fig9 from "./images/Fig9.png";
-
+import Fig4 from "./images/Fig4.png";
 
 import "../../css/global.css"
 import Header from "../../components/header/header"
@@ -60,56 +48,62 @@ class Index extends React.Component {
           ]
         }
           abstractRole="Product Designer"
-          abstractTools="Multivariate Testing, Prototyping"
+          abstractTools="Prototyping, Multi-arm Testing"
           abstractTime="2024 – Present"
-          abstractBody="Elicit is an AI tool for scientific research with deep roots in an AI Safety research lab called Ought. I comprise 1 of the 2 people legally allowed to call this a design team. Covering a wide range, from running experiments with my analytics buddy, to thinking really hard about auditability of AI systems."
+          abstractBody="Elicit is an AI tool for scientific research with deep roots in an AI Safety research lab called Ought. As 1 of the 3 people legally allowed to call this a design team, I cover a wide range, from running experiments with my analytics buddy, to thinking really hard about auditability of AI systems."
         />
 
-        <Tracker phaseList={['ITERABILITY', 'SENSE-MAKING', 'GROWTH', 'CULTURE']}
+        <Tracker phaseList={['ITERABILITY', 'AUDITABILITY', 'GROWTH', 'CULTURE']}
           trackerHead={Constants.elicit.heroTitle} />
         <div id="p1">
-          <Phase phaseTitle="Iterability" />
+          <Phase phaseTitle="Input Iterability" />
           <ImgLeft img={Fig1} padding="yes" imgNum="01" imgCaption="Favorite project from this era — the query suggester." />
           <Paragraph paragraphTitle="Facilitating Improvement Loops"
-            paragraphBody="First of its kind at the time, my query suggester experience was [[one of the most impactful>https://x.com/Stammy/status/1892615079302209727 ]] results of this body of work." />
+            paragraphBody="A big problem space in AI is the causal relationship between input and output quality. As of 2024, you often saw iteration on outputs, but rarely LLM-powered iteration on prompts. First of its kind at the time, my query suggester experience was [[the most impactful>https://x.com/Stammy/status/1892615079302209727 ]] result of this much larger body of work." />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={[
               "Do people prefer to iterate from outputs or perfect prompts?",
-              "What is the Why Does It Suck framework?"
+              "How to disambuguate user queries for better precision?",
+              "How do we craft an incisive prompt for an incisive output?",
+              "How does calibration of uncertainty in prompts results in better outputs?"
             ]} />
         </div>
         <div id="p2">
-          <Phase phaseTitle="Sense-Making" />
-          <ImgLeft img={Fig2} padding="" imgNum="02" imgCaption="Favorite project from this era — redesigning all control panels in Airtable." />
-          <Paragraph paragraphTitle="App Building Experience"
-            paragraphBody="Temporarily embedded on a core product team, I represented the Design Systems crew to help develop a best-in-class canvas interaction model and a corresponding component library for configuration panels. Launching in October 2023, it's [[featured on Airtable's blog>https://blog.airtable.com/new-app-building-features/]]." />
+          <Phase phaseTitle="Output Auditability" />
+          <ImgLeft img={Fig2} padding="" imgNum="02" imgCaption="The Context Menu of Sense-Making" />
+          <Paragraph paragraphTitle="Factored Cognition, Sense-making"
+            paragraphBody="Input optimization can only get us so far, and the vast majority of iteration occurs after running the prompt. To iterate from results, the output should be highly auditable. This multi-project body of work explored ways to structure non-deterministic data to make our flagship features easy to browse and iterate from." />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={["What the hell is factored cognition?",
-              "How to ensure the user can distinguish what element is being targeted by the cursor?",
-              "When selecting elements on the canvas, when is it important to show parent elements? What about sibling elements?",
-              "What does it mean to be scannable?"
+              "What the hell is sense-making?",
+              "How might we visually structure complex information for better sense-making and auditability?",
+              "How does one design for non-deterministic outputs?",
+              "How does narrative data enrichment differ from tabular data enrichment?",
+              "What is the Why Does It Suck framework?",
+              "How might we maintain user engagement while rewarding iteration?"
             ]} />
         </div>
         <div id="p3">
           <Phase phaseTitle="Growth" />
-          <Paragraph paragraphTitle="Aero Design System"
-            paragraphBody="Since January 2023, my team has worked together to launch the first version of our Aero Design System. As the sole design systems IC, I am responsible for facilitating contributions from other designers, as well as hosting weekly office hours to help designers leverage the system to its fullest." />
-          <ImgLeft img={Fig3} padding="" imgNum="03" imgCaption="Aero's Announcement Page" />
+          <Paragraph paragraphTitle="Web Extension, Onboarding, Free Trials"
+            paragraphBody="Growth comes in many forms at Elicit, from running multi-arm experiments on our pricing and packaging to making churn-prone workflows more delightful to use." />
           <List listTitle="Questions you may want to ask me:" listType='ol'
-            listItems={["What happens when the Free plan becomes a Skip button?",
-              "tktk"
+            listItems={["What happens when you turn a pricing plan card into a button?",
+              "How did a bespoke PDF-fetching web extension boost our retention metrics?",
+              "How do you build a free trial from scratch for maximum impact?",
+              "What are the 3 difficulty levels of academic plan verification flows? And can I speedrun the hardest one?",
             ]} />
         </div>
         <div id="p4">
           <Phase phaseTitle="Culture" />
-          <ImgLeft img={Fig4} padding="true" imgNum="04" imgCaption="Sharing Experience on Mobile" />
           <Paragraph paragraphTitle="Eliciting Good Feelings"
-            paragraphBody="Since September 2023, I've been the sole designer supporting our mobile app experience on iOS and Android. Given the spatial constraint when designing for mobile, I employ time-based disclosure paradigms to adapt web features to smaller screens." />
+            paragraphBody="Elicit's logo is a stack of books designed by the wonderful [[Maggie Appleton>https://maggieappleton.com/]] and since I took over, they've been horribly bastardized by my grubby fingers. " />
           <List listTitle="Questions you may want to ask me:" listType='ol'
-            listItems={["How might we leverage the simplicity of mobile patterns to make web experiences more delightful and well-timed?",
-              "Why is time more important than space in mobile design? In what ways can this manifest?",
-              "What are some differences to keep in mind when designing for Android over iOS?"
+            listItems={["What's inside the Elicit books anyway?",
+              "Why is there an otter on some of the Elician laptops?",
+              "Should I be afraid of the Elizard?"
             ]} />
+          <ImgRight img={Fig4} padding="true" imgNum="04" imgCaption="Yes, you should be afraid of the Elizard." />
         </div>
         <More />
         <Contact />
