@@ -73,7 +73,7 @@ class Index extends React.Component {
           <Phase phaseTitle="Growth" />
           <ImgLeft img={Fig1} padding="yes" blur="" imgNum="01" imgCaption="Favorite project from this era — the onboarding wizard." />
           <Paragraph paragraphTitle="Onboarding, Education and Experimental Delight"
-            paragraphBody="Responsible for overhauling the entirety of our top of funnel design, from refreshing and re-routing our sign-up flow to conceiving brand new onboarding experiences. My onboarding experiments are [[discussed in this lengthy interview from Dopt>https://archive.is/fwzcW]]. Try searching for my name!" />
+            paragraphBody="Responsible for overhauling the entirety of our top of funnel design, from refreshing and re-routing our sign-up flow to conceiving brand new onboarding experiences. My onboarding experiments are [[discussed in this lengthy interview from Dopt>https://web.archive.org/web/20240228135221/https://blog.dopt.com/airtable-onboarding-deep-dive]]. Try searching for my name!" />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={[
               "Why am I always compelled to skip every product tour?",
