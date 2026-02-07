@@ -11,6 +11,7 @@ import dittoHero from "../../pages/ditto/images/hero.png";
 import trunksHero from "../../pages/trunks/images/hero.png";
 import airtableHero from "../../pages/airtable/images/hero.png";
 import semaphoreHero from "../../pages/semaphore/images/hero.png";
+import elicitHero from "../../pages/elicit/images/hero.png";
 
 var images = {
     default: defaultHero,
@@ -19,7 +20,8 @@ var images = {
     ditto: dittoHero,
     semaphore: semaphoreHero,
     trunks: trunksHero,
-    airtable: airtableHero
+    airtable: airtableHero,
+    elicit: elicitHero
 }
 
 export default props => (

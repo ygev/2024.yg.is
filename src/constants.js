@@ -6,6 +6,13 @@ export const Constants = {
         heroDeliverable: "",
         heroTitle: "Product Designer",
     },
+    elicit: {
+        heroName: "Elicit",
+        heroCategory: "Real Job",
+        heroYear: "2024–NOW",
+        heroDeliverable: "Product Designer",
+        heroTitle: "Scaling Up Good Reasoning with Factored Cognition"
+    },
     airtable: {
         heroName: "Airtable",
         heroCategory: "Real Job",
