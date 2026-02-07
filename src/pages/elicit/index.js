@@ -51,7 +51,7 @@ class Index extends React.Component {
             heroYear={Constants.elicit.heroYear}
             heroDeliverable={Constants.elicit.heroDeliverable}
             heroTitle={Constants.elicit.heroTitle}
-            heroSummary="Few parts of Airtable have gone untouched by my cursor. From every top-of-funnel surface you can think of, to the depths of app configurations, I've designed for it all. Currently, I am the only designer on the design systems and mobile teams."
+            heroSummary=""
           />
         </div>
 
@@ -59,81 +59,57 @@ class Index extends React.Component {
           [
           ]
         }
-          abstractTeam="Growth · Design Systems · Mobile"
           abstractRole="Product Designer"
-          abstractTools="Auditing, Prototyping, A/B Testing"
-          abstractTime="2020 – 2024"
-          abstractBody="Few parts of Airtable have gone untouched by my cursor. From every top-of-funnel surface you can think of, to the depths of app configurations, I've designed for it all. Before I left, I was the only designer on the design systems and mobile teams, dipping my toes into our AI integrations. In mid-2024, I quit to work at an AI startup, as was the custom at the time."
+          abstractTools="Multivariate Testing, Prototyping"
+          abstractTime="2024 – Present"
+          abstractBody="Elicit is an AI tool for scientific research with deep roots in an AI Safety research lab called Ought. I comprise 1 of the 2 people legally allowed to call this a design team. Covering a wide range, from running experiments with my analytics buddy, to thinking really hard about auditability of AI systems."
         />
 
-        <Tracker phaseList={['GROWTH', 'CORE PRODUCT', 'DESIGN SYSTEMS', 'MOBILE', 'CULTURE']}
+        <Tracker phaseList={['ITERABILITY', 'SENSE-MAKING', 'GROWTH', 'CULTURE']}
           trackerHead={Constants.elicit.heroTitle} />
         <div id="p1">
-          <Phase phaseTitle="Growth" />
-          <ImgLeft img={Fig1} padding="yes" imgNum="01" imgCaption="Favorite project from this era — the onboarding wizard." />
-          <Paragraph paragraphTitle="Onboarding, Education and Experimental Delight"
-            paragraphBody="Responsible for overhauling the entirety of our top of funnel design, from refreshing and re-routing our sign-up flow to conceiving brand new onboarding experiences. My onboarding experiments are [[discussed in this lengthy interview from Dopt>https://web.archive.org/web/20240228135221/https://blog.dopt.com/airtable-onboarding-deep-dive]]. Try searching for my name!" />
+          <Phase phaseTitle="Iterability" />
+          <ImgLeft img={Fig1} padding="yes" imgNum="01" imgCaption="Favorite project from this era — the query suggester." />
+          <Paragraph paragraphTitle="Facilitating Improvement Loops"
+            paragraphBody="First of its kind at the time, my query suggester experience was [[one of the most impactful>https://x.com/Stammy/status/1892615079302209727 ]] results of this body of work." />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={[
-              "Why am I always compelled to skip every product tour?",
-              "Are templates best suited as an accelerative or demonstrative activation lever?",
-              "What was the most surprising activation lever? How did you discover it, and how did you leverage it?",
-              "What's the most delightful flavor of Help documentation?",
-              "Why does making the button bigger not work?",
-              "Why are logged out users as important as logged in users?",
-              "What makes a good wizard? 🪄"
+              "Do people prefer to iterate from outputs or perfect prompts?",
+              "What is the Why Does It Suck framework?"
             ]} />
         </div>
         <div id="p2">
-          <Phase phaseTitle="Core Product" />
+          <Phase phaseTitle="Sense-Making" />
           <ImgLeft img={Fig2} padding="" imgNum="02" imgCaption="Favorite project from this era — redesigning all control panels in Airtable." />
           <Paragraph paragraphTitle="App Building Experience"
             paragraphBody="Temporarily embedded on a core product team, I represented the Design Systems crew to help develop a best-in-class canvas interaction model and a corresponding component library for configuration panels. Launching in October 2023, it's [[featured on Airtable's blog>https://blog.airtable.com/new-app-building-features/]]." />
           <List listTitle="Questions you may want to ask me:" listType='ol'
-            listItems={["How to decide when to expose controls on the canvas and when to use a dedicated control panel?",
+            listItems={["What the hell is factored cognition?",
               "How to ensure the user can distinguish what element is being targeted by the cursor?",
               "When selecting elements on the canvas, when is it important to show parent elements? What about sibling elements?",
               "What does it mean to be scannable?"
             ]} />
         </div>
         <div id="p3">
-          <Phase phaseTitle="Design Systems" />
+          <Phase phaseTitle="Growth" />
           <Paragraph paragraphTitle="Aero Design System"
             paragraphBody="Since January 2023, my team has worked together to launch the first version of our Aero Design System. As the sole design systems IC, I am responsible for facilitating contributions from other designers, as well as hosting weekly office hours to help designers leverage the system to its fullest." />
           <ImgLeft img={Fig3} padding="" imgNum="03" imgCaption="Aero's Announcement Page" />
           <List listTitle="Questions you may want to ask me:" listType='ol'
-            listItems={["If a design system is a product, then who is the target audience? What is the go-to-market strategy? How far does this analogy extend?",
-              "What happens when a design systems team... dims the lights?",
-              "Why is process optimization more important than component optimization?",
-              "Why are usage guidelines more important than a sticker sheet?",
-              "How to balance custom user color theming with dark, light and high-contrast mode?",
-              "What is the most versatile component of them all?"
+            listItems={["What happens when the Free plan becomes a Skip button?",
+              "tktk"
             ]} />
         </div>
         <div id="p4">
-          <Phase phaseTitle="Mobile" />
+          <Phase phaseTitle="Culture" />
           <ImgLeft img={Fig4} padding="true" imgNum="04" imgCaption="Sharing Experience on Mobile" />
-          <Paragraph paragraphTitle="Making Airtable Mobile-Native"
+          <Paragraph paragraphTitle="Eliciting Good Feelings"
             paragraphBody="Since September 2023, I've been the sole designer supporting our mobile app experience on iOS and Android. Given the spatial constraint when designing for mobile, I employ time-based disclosure paradigms to adapt web features to smaller screens." />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={["How might we leverage the simplicity of mobile patterns to make web experiences more delightful and well-timed?",
               "Why is time more important than space in mobile design? In what ways can this manifest?",
               "What are some differences to keep in mind when designing for Android over iOS?"
             ]} />
-        </div>
-        <div id="p5">
-          <Phase phaseTitle="Culture" />
-          <ImgLeft img={Fig5} padding="" imgNum="05" imgCaption="Hack Day Enamel Pin" />
-          <Paragraph paragraphTitle="Bootleg Swag"
-            paragraphBody="I've been the go-to person for internal event branding on the design team. One identity I am most proud of is the one I created for our yearly Hack Day." />
-          <List listTitle="Questions you may want to ask me:" listType='ol'
-            listItems={["How did a Japanese copier from the 1980s become such a printmaking staple?",
-              "Why is PANTONE matching brand colors important?",
-              "Why did the Growth team grow Corn and Sunflowers?"
-            ]} />
-          <ImgLeft img={Fig8} padding="" imgNum="06" imgCaption="Hack Day Riso Posters" />
-          <ImgRight img={Fig9} padding="" imgNum="07" imgCaption="Hack Day Countdown" />
-          <ImgRight img={Fig7} padding="" imgNum="08" imgCaption="Hack Day Announcement Poster" />
         </div>
         <More />
         <Contact />

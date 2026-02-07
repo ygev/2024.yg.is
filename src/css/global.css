@@ -319,6 +319,7 @@ html {
   -webkit-filter: blur(4px);
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
+  perspective: 1000;
   -webkit-font-smoothing: subpixel-antialiased;
   backface-visibility: hidden;
   transform: translateZ(0);
