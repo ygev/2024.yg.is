@@ -5,7 +5,7 @@ import "../../css/global.css"
 import Marquee from "react-fast-marquee";
 
 export default function FooComponent() {
-  var newPortfolio = <div className="marquee__prefix"> · THESSALONIANS 4:11 · QUIET LIFE HONEST WORK&#160;</div>
+  var newPortfolio = <div className="marquee__prefix"> · KEEP IT CHEEKY&#160;</div>
   const linkSpam = Array(1000).fill(newPortfolio);
 
   return (

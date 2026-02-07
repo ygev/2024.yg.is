@@ -57,7 +57,6 @@ class Index extends React.Component {
 
         <Abstract glams={
           [
-            [Glam1]
           ]
         }
           abstractTeam="Growth · Design Systems · Mobile"
@@ -71,7 +70,7 @@ class Index extends React.Component {
           trackerHead={Constants.airtable.heroTitle} />
         <div id="p1">
           <Phase phaseTitle="Growth" />
-          <ImgLeft img={Fig1} padding="yes" blur="" imgNum="01" imgCaption="Favorite project from this era — the onboarding wizard." />
+          <ImgLeft img={Fig1} padding="yes" imgNum="01" imgCaption="Favorite project from this era — the onboarding wizard." />
           <Paragraph paragraphTitle="Onboarding, Education and Experimental Delight"
             paragraphBody="Responsible for overhauling the entirety of our top of funnel design, from refreshing and re-routing our sign-up flow to conceiving brand new onboarding experiences. My onboarding experiments are [[discussed in this lengthy interview from Dopt>https://web.archive.org/web/20240228135221/https://blog.dopt.com/airtable-onboarding-deep-dive]]. Try searching for my name!" />
           <List listTitle="Questions you may want to ask me:" listType='ol'
@@ -104,6 +103,7 @@ class Index extends React.Component {
           <ImgLeft img={Fig3} padding="" imgNum="03" imgCaption="Aero's Announcement Page" />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={["If a design system is a product, then who is the target audience? What is the go-to-market strategy? How far does this analogy extend?",
+              "What happens when a design systems team... dims the lights?",
               "Why is process optimization more important than component optimization?",
               "Why are usage guidelines more important than a sticker sheet?",
               "How to balance custom user color theming with dark, light and high-contrast mode?",
@@ -112,7 +112,7 @@ class Index extends React.Component {
         </div>
         <div id="p4">
           <Phase phaseTitle="Mobile" />
-          <ImgLeft img={Fig4} padding="true" blur="" imgNum="04" imgCaption="Sharing Experience on Mobile" />
+          <ImgLeft img={Fig4} padding="true" imgNum="04" imgCaption="Sharing Experience on Mobile" />
           <Paragraph paragraphTitle="Making Airtable Mobile-Native"
             paragraphBody="Since September 2023, I've been the sole designer supporting our mobile app experience on iOS and Android. Given the spatial constraint when designing for mobile, I employ time-based disclosure paradigms to adapt web features to smaller screens." />
           <List listTitle="Questions you may want to ask me:" listType='ol'
