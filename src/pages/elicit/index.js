@@ -6,6 +6,7 @@ import Fig1 from "./images/Fig1.gif";
 import Fig2 from "./images/Fig2.png";
 import Fig3 from "./images/Fig3.png";
 import Fig4 from "./images/Fig4.png";
+import Fig5 from "./images/Fig5.png";
 
 import "../../css/global.css"
 import Header from "../../components/header/header"
@@ -65,14 +66,14 @@ class Index extends React.Component {
               "Do people prefer to iterate from outputs or perfect prompts?",
               "How to disambuguate user queries for better precision?",
               "How do we craft an incisive prompt for an incisive output?",
-              "How does calibration of uncertainty in prompts results in better outputs?"
+              "How does the calibration of uncertainty in prompts result in better outputs?"
             ]} />
         </div>
         <div id="p2">
           <Phase phaseTitle="Output Auditability" />
           <ImgLeft img={Fig2} padding="" imgNum="02" imgCaption="The Context Menu of Sense-Making" />
           <Paragraph paragraphTitle="Factored Cognition, Sense-making"
-            paragraphBody="Input optimization can only get us so far, and the vast majority of iteration occurs after running the prompt. To iterate from results, the output should be highly auditable. This multi-project body of work explored ways to structure non-deterministic data to make our flagship features easy to browse and iterate from." />
+            paragraphBody="Input optimization can only get us so far, and the vast majority of iteration occurs after running the prompt. To iterate from results, the output should be highly auditable. This multi-project saga explored ways to structure non-deterministic data to make our flagship features easy to browse and iterate from." />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={["What the hell is factored cognition?",
               "What the hell is sense-making?",
@@ -87,20 +88,23 @@ class Index extends React.Component {
           <Phase phaseTitle="Growth" />
           <Paragraph paragraphTitle="Web Extension, Onboarding, Free Trials"
             paragraphBody="Growth comes in many forms at Elicit, from running multi-arm experiments on our pricing and packaging to making churn-prone workflows more delightful to use." />
+          <ImgLeft img={Fig5} padding="yes" imgNum="03" imgCaption="Got full-texts?" />
           <List listTitle="Questions you may want to ask me:" listType='ol'
-            listItems={["What happens when you turn a pricing plan card into a button?",
+            listItems={["What happens when you turn a pricing plan card into a button? What if it's a Skip button?",
               "How did a bespoke PDF-fetching web extension boost our retention metrics?",
-              "How do you build a free trial from scratch for maximum impact?",
+              "How do you build a free trial experience from scratch? What variables had an outsized impact?",
               "What are the 3 difficulty levels of academic plan verification flows? And can I speedrun the hardest one?",
             ]} />
         </div>
         <div id="p4">
           <Phase phaseTitle="Culture" />
           <Paragraph paragraphTitle="Eliciting Good Feelings"
-            paragraphBody="Elicit's logo is a stack of books designed by the wonderful [[Maggie Appleton>https://maggieappleton.com/]] and since I took over, they've been horribly bastardized by my grubby fingers. " />
+            paragraphBody="Elicit's logo is a stack of books designed by the wonderful [[Maggie Appleton>https://maggieappleton.com/]] and since I took over, they've been horribly bastardized by my grubby fingers. It's been turned into an adobe house for the team retreat to Santa Fe, adorned with holographic stripes for the trip to Meow Wolf, and even turned into a pumpkin when the night was over." />
+          <ImgLeft img={Fig3} padding="" imgNum="" imgCaption="" />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={["What's inside the Elicit books anyway?",
               "Why is there an otter on some of the Elician laptops?",
+              "Tell me about the time you hand-drew all 25 employees as California Redwood trees.",
               "Should I be afraid of the Elizard?"
             ]} />
           <ImgRight img={Fig4} padding="true" imgNum="04" imgCaption="Yes, you should be afraid of the Elizard." />
