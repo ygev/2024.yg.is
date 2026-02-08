@@ -9,6 +9,8 @@ import Ticker from 'react-ticker'
 import PageVisibility from 'react-page-visibility';
 import defaultHero from "../../images/hero.gif"
 import phisherHero from "../../pages/phisher/images/hero.png";
+import airtableHero from "../../pages/airtable/images/hero.png";
+import elicitHero from "../../pages/elicit/images/hero.png";
 import cluseHero from "../../pages/cluse/images/hero.png";
 import dittoHero from "../../pages/ditto/images/hero.png";
 import trunksHero from "../../pages/trunks/images/hero.png";
@@ -16,14 +18,15 @@ import semaphoreHero from "../../pages/semaphore/images/hero.png";
 
 var images = {
     default: defaultHero,
-    phisher: phisherHero,
+    airtable: airtableHero,
+    elicit: elicitHero,
     cluse: cluseHero,
     ditto: dittoHero,
     semaphore: semaphoreHero,
     trunks: trunksHero
 }
 
-var projectNames = ['cluse', 'ditto', 'semaphore', 'trunks', 'phisher']
+var projectNames = ['airtable', 'elicit', 'cluse', 'ditto', 'trunks']
 
 function buildMoreProjects(projects) {
     var moreProjects = [];
@@ -51,7 +54,6 @@ const MoveStuffAround = () => {
     return (
         <>
             <section className="more">
-                {/* <h4 className="more__head">Check Out More</h4> */}
                 <PageVisibility onChange={handleVisibilityChange}>
                     {pageIsVisible && (
                         < Ticker>
