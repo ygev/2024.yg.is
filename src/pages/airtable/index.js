@@ -75,11 +75,13 @@ class Index extends React.Component {
             paragraphBody="Responsible for overhauling the entirety of our top of funnel design, from refreshing and re-routing our sign-up flow to conceiving brand new onboarding experiences. My onboarding experiments are [[discussed in this lengthy interview from Dopt>https://web.archive.org/web/20240228135221/https://blog.dopt.com/airtable-onboarding-deep-dive]]. Try searching for my name!" />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={[
-              "Why am I always compelled to skip every product tour?",
+              "How do I lower the floor for new users without caving in the ceiling?",
+              "How to leverage user's stated intent and prior experience?",
               "Are templates best suited as an accelerative or demonstrative activation lever?",
-              "What was the most surprising activation lever? How did you discover it, and how did you leverage it?",
-              "What's the most delightful flavor of Help documentation?",
-              "Why does making the button bigger not work?",
+              "How draconian should onboarding be and when?",
+              "What is the role of mental model sequencing in user education?",
+              "When do users learn by doing, and when do they learn through instruction?",
+              "What was the most surprising activation lever? How did we discover it, and how did we leverage it?",
               "Why are logged out users as important as logged in users?",
               "What makes a good wizard? 🪄"
             ]} />
