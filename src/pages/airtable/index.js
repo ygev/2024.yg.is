@@ -76,7 +76,7 @@ class Index extends React.Component {
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={[
               "How do I lower the floor for new users without caving in the ceiling?",
-              "How to leverage user's stated intent and prior experience?",
+              "How to leverage both the user's stated intent and their prior experience?",
               "Are templates best suited as an accelerative or demonstrative activation lever?",
               "How draconian should onboarding be and when?",
               "What is the role of mental model sequencing in user education?",
@@ -105,10 +105,10 @@ class Index extends React.Component {
           <ImgLeft img={Fig3} padding="" imgNum="03" imgCaption="Aero's Announcement Page" />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={["If a design system is a product, then who is the target audience? What is the go-to-market strategy? How far does this analogy extend?",
-              "What happens when a design systems team... dims the lights?",
               "Why is process optimization more important than component optimization?",
               "Why are usage guidelines more important than a sticker sheet?",
-              "How to balance custom user color theming with dark, light and high-contrast mode?",
+              "What happens when a design systems team... dims the lights?",
+              "Relatedly, how to balance custom user color theming with dark, light and high-contrast mode?",
               "What is the most versatile component of them all?"
             ]} />
         </div>

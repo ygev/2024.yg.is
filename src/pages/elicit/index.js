@@ -64,7 +64,7 @@ class Index extends React.Component {
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={[
               "Do people prefer to iterate from outputs or perfect prompts?",
-              "How to disambuguate user queries for better precision?",
+              "How to disambiguate user queries for better precision?",
               "How do we craft an incisive prompt for an incisive output?",
               "How does the calibration of uncertainty in prompts result in better outputs?"
             ]} />
@@ -94,6 +94,7 @@ class Index extends React.Component {
               "How did a bespoke PDF-fetching web extension boost our retention metrics?",
               "How do you build a free trial experience from scratch? What variables had an outsized impact?",
               "What are the 3 difficulty levels of academic plan verification flows? And can I speedrun the hardest one?",
+              "How do you meet the user where they are?"
             ]} />
         </div>
         <div id="p4">
